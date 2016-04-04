@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DZFlexbox_Example', :exclusive => true do
+  pod 'DZFlexbox', :path => '../'
+end
+
+target 'DZFlexbox_Tests', :exclusive => true do
+  pod 'DZFlexbox', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
