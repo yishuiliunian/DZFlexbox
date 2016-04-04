@@ -1,0 +1,21 @@
+PODS:
+  - DZFlexbox (0.1.0)
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DZFlexbox (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DZFlexbox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZFlexbox: e299ee21acd9beca53c87d5315091e7969a683e0
+  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
+
+COCOAPODS: 0.39.0

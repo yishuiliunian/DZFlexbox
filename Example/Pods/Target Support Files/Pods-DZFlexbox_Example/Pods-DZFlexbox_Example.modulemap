@@ -1,0 +1,6 @@
+framework module Pods_DZFlexbox_Example {
+  umbrella header "Pods-DZFlexbox_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

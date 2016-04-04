@@ -1,0 +1,6 @@
+framework module DZFlexbox {
+  umbrella header "DZFlexbox-umbrella.h"
+
+  export *
+  module * { export * }
+}
